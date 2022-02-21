@@ -1,0 +1,133 @@
+@font-face {
+    font-family: 'coca-cola';
+    src: url('fontes/coca-cola.ttf') format('truetype');
+  }
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+@import url('/fontes/coca-cola.ttf');
+
+
+
+body {
+    background:rgb(230 29 43);
+    font: 16px arial, helvetica, sans-serif;
+
+}
+
+img {
+    width: 900px;
+}
+
+#principal {
+    width: 100%;
+    display: flex;
+}
+
+#menu{
+    border: solid none;
+    padding: 20px;
+    background: black;
+    color:red;
+
+}
+
+#texto {
+    background-color: white;
+    padding: 10px;
+}
+
+#final {
+    text-align: center;
+}
+
+#menu a {
+    color: rgb(221, 221, 221);
+    text-decoration: none;
+}
+
+#menu a:hover{
+    color: red;
+    max-width: 100%;
+}
+
+#cd{
+    width: 50%;
+    text-align: center;
+    background-color: rgb(184, 5, 5);
+    margin-bottom: 20px;
+}
+
+.bloco02 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+   align-items: center;
+}
+
+#tabela {
+    color: white;
+    border:  #f1f1f1;
+}
+
+.titulo {
+    color: #fff;
+    font-family: 'coca-cola';
+    font-size: 8rem;
+}
+
+#historia {
+    width: 650px;
+    text-align: center;
+    padding: 20px;
+}
+
+#historia {
+     margin: auto;
+     color: #f1f1f1;
+     text-align: justify;
+}
+
+h1 {
+    color: white;
+    text-align: left;
+    font-family: 'coca-cola';
+    font-size: 5rem;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+    padding: 10px;
+}
+
+.all {
+    width: 50%;
+}
+
+ #cima {
+     padding: auto;
+ }
+
+ .dados {
+     color: #f1f1f1;
+ }
+
+ .h {
+     color: rgb(212, 209, 209);
+     text-align: center;
+ }
+
+ #text {
+     background-color: black;
+     color: #f1f1f1;
+ }
+
+     
+
+  
